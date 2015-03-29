@@ -1,0 +1,28 @@
+// Set base font size and line height
+html{
+	font-size: 18px;
+}
+
+$doc-font-size:18;
+$doc-line-height:29;
+
+body{
+	font-family: $helvetica;
+	font-weight: 300;
+}
+
+h1{
+	@include font-size(40);
+}
+
+h2{
+	@include font-size(29);
+}
+
+h3{
+	@include font-size(23);
+}
+
+p{
+	@include font-size(18);
+}
