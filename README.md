@@ -1,2 +1,2 @@
 # Firestarter
-Starter theme with grunt, bower, bourbon, and neat.
+Starter template with grunt, bower, bourbon, and neat.
