@@ -4,7 +4,7 @@ module.exports = function(grunt){
 	var $mainSass = 'scss/main.scss';
 	// Configure tasks here
 	grunt.initConfig({
-
+ 
 		jshint: {
 			files: [$jsFiles]
 		},
@@ -15,7 +15,7 @@ module.exports = function(grunt){
 					expand: true,
 					cwd: 'js',
 					src: '**/*.js',
-					dest: 'dist/assets/js/'
+					dest: '../dist/assets/js/'
 				}]
 			}
 		},
@@ -31,7 +31,7 @@ module.exports = function(grunt){
 			        ]
 				},
 				files: {
-					'dist/assets/css/main.css': $mainSass
+					'../dist/assets/css/main.css': $mainSass
 				}
 			}
 		},
