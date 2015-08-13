@@ -1,8 +1,9 @@
+$max-width: 1280px;
+
 // Containers
 *{
 	@include box-sizing(border-box);
 }
-$max-width: 1280px;
 
 section{
 	@include outer-container;

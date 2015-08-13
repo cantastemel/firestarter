@@ -1,30 +1,37 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700");
+
 // Set base font size and line height
 html{
-	font-size: 16px;
+	font-size: 17px;
 }
 
-$doc-font-size:16;
-$doc-line-height:29;
+$doc-font-size:17;
+$doc-line-height:27;
 $doc-margin: $doc-line-height+px 0;
 
+$sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial sans-serif;
+
 body{
-	font-family: $helvetica;
+	font-family: $sans-serif;
 	font-weight: 300;
-	letter-spacing: 0.03rem;
+	letter-spacing: 0.04rem;
+	word-spacing: 0.04rem;
 }
 
 h1{
-	@include font-size(42);
+	@include font-size(45);
+	letter-spacing: 0.06rem;
 }
 
 h2{
-	@include font-size(26);
+	@include font-size(28);
+	letter-spacing: 0.01rem;
 }
 
 h3{
-	@include font-size(20);
+	@include font-size(22);
 }
 
 p{
-	@include font-size(16);
+	@include font-size(17);
 }
